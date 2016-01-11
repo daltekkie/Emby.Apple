@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0047091C044B5500B68F36 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0047081C044B5500B68F36 /* RootViewController.swift */; };
+		5D00470B1C044DC000B68F36 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D00470A1C044DC000B68F36 /* DismissSegue.swift */; };
 		5D23756B1BAF34D4002BF584 /* EmbyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2375641BAF34D4002BF584 /* EmbyKit.framework */; };
 		5D23756C1BAF34D4002BF584 /* EmbyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2375641BAF34D4002BF584 /* EmbyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D23757D1BAF34EA002BF584 /* EmbyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2375761BAF34EA002BF584 /* EmbyKit.framework */; };
 		5D23757E1BAF34EA002BF584 /* EmbyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2375761BAF34EA002BF584 /* EmbyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5D2375951BAF36F1002BF584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D23758B1BAF36F1002BF584 /* AppDelegate.m */; };
 		5D2375961BAF36F1002BF584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D23758C1BAF36F1002BF584 /* Assets.xcassets */; };
 		5D2375971BAF36F1002BF584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D23758D1BAF36F1002BF584 /* LaunchScreen.storyboard */; };
 		5D2375981BAF36F1002BF584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D23758F1BAF36F1002BF584 /* Main.storyboard */; };
-		5D23759A1BAF36F1002BF584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2375921BAF36F1002BF584 /* main.m */; };
-		5D23759B1BAF36F1002BF584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2375941BAF36F1002BF584 /* ViewController.m */; };
-		5D2375A61BAF37B5002BF584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D23759E1BAF37B5002BF584 /* AppDelegate.m */; };
 		5D2375A71BAF37B5002BF584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D23759F1BAF37B5002BF584 /* Assets.xcassets */; };
 		5D2375A81BAF37B5002BF584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2375A01BAF37B5002BF584 /* Main.storyboard */; };
-		5D2375AA1BAF37B5002BF584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2375A31BAF37B5002BF584 /* main.m */; };
-		5D2375AB1BAF37B5002BF584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2375A51BAF37B5002BF584 /* ViewController.m */; };
 		5D2375AC1BAF396B002BF584 /* EmbyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2375841BAF360B002BF584 /* EmbyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D2375AD1BAF3973002BF584 /* EmbyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2375841BAF360B002BF584 /* EmbyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D4954111BEC32DA00AAB209 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D4954101BEC32DA00AAB209 /* Localizable.strings */; };
+		5D4954121BEC32DA00AAB209 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D4954101BEC32DA00AAB209 /* Localizable.strings */; };
+		5D49541C1BEC39EC00AAB209 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D49541B1BEC39EC00AAB209 /* Button.swift */; };
+		5D49541E1BEC661600AAB209 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D49541D1BEC661600AAB209 /* ConnectViewController.swift */; };
+		5D4954201BEC666800AAB209 /* ServerConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D49541F1BEC666800AAB209 /* ServerConnectionViewController.swift */; };
+		5D4954221BEC66A000AAB209 /* ServerSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4954211BEC66A000AAB209 /* ServerSelectionViewController.swift */; };
+		5DA7BD6F1C058BEB0073EF7A /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BD6E1C058BEB0073EF7A /* WelcomeViewModel.swift */; };
+		5DA7BD711C058FEA0073EF7A /* ConnectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BD701C058FEA0073EF7A /* ConnectViewModel.swift */; };
+		5DA7BD731C05900F0073EF7A /* ServerConnectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BD721C05900F0073EF7A /* ServerConnectionViewModel.swift */; };
+		5DA7BD751C0590310073EF7A /* ServerSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BD741C0590310073EF7A /* ServerSelectionViewModel.swift */; };
+		5DA7BD771C06B9EB0073EF7A /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BD761C06B9EB0073EF7A /* APIRouter.swift */; };
+		5DD39A7A1BE84C1900B2D09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD39A781BE84C1900B2D09A /* AppDelegate.swift */; };
+		5DD39A7B1BE84C1900B2D09A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD39A791BE84C1900B2D09A /* WelcomeViewController.swift */; };
+		5DD39A7E1BE84C2D00B2D09A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD39A7C1BE84C2D00B2D09A /* MainViewController.swift */; };
+		5DD39A7F1BE84C2D00B2D09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD39A7D1BE84C2D00B2D09A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +80,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D0047081C044B5500B68F36 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5D00470A1C044DC000B68F36 /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		5D0FBAD01C025F69005BB336 /* Emby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Emby.framework; path = Carthage/Build/tvOS/Emby.framework; sourceTree = "<group>"; };
 		5D23752F1BAF3461002BF584 /* Emby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2375481BAF3484002BF584 /* Emby (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emby (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2375641BAF34D4002BF584 /* EmbyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmbyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,24 +90,28 @@
 		5D2375841BAF360B002BF584 /* EmbyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbyKit.h; sourceTree = "<group>"; };
 		5D2375861BAF3615002BF584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D2375881BAF3621002BF584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D23758A1BAF36F1002BF584 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5D23758B1BAF36F1002BF584 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5D23758C1BAF36F1002BF584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D23758E1BAF36F1002BF584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2375901BAF36F1002BF584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D2375911BAF36F1002BF584 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D2375921BAF36F1002BF584 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5D2375931BAF36F1002BF584 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5D2375941BAF36F1002BF584 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5D23759D1BAF37B5002BF584 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5D23759E1BAF37B5002BF584 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5D23759F1BAF37B5002BF584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2375A11BAF37B5002BF584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D2375A21BAF37B5002BF584 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D2375A31BAF37B5002BF584 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5D2375A41BAF37B5002BF584 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5D2375A51BAF37B5002BF584 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D2375B01BAF3A95002BF584 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		5D4954101BEC32DA00AAB209 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5D49541B1BEC39EC00AAB209 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		5D49541D1BEC661600AAB209 /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		5D49541F1BEC666800AAB209 /* ServerConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConnectionViewController.swift; sourceTree = "<group>"; };
+		5D4954211BEC66A000AAB209 /* ServerSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerSelectionViewController.swift; sourceTree = "<group>"; };
+		5DA7BD6E1C058BEB0073EF7A /* WelcomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		5DA7BD701C058FEA0073EF7A /* ConnectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewModel.swift; sourceTree = "<group>"; };
+		5DA7BD721C05900F0073EF7A /* ServerConnectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConnectionViewModel.swift; sourceTree = "<group>"; };
+		5DA7BD741C0590310073EF7A /* ServerSelectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerSelectionViewModel.swift; sourceTree = "<group>"; };
+		5DA7BD761C06B9EB0073EF7A /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		5DD39A781BE84C1900B2D09A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DD39A791BE84C1900B2D09A /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5DD39A7C1BE84C2D00B2D09A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5DD39A7D1BE84C2D00B2D09A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +148,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D0FBACE1C025EC3005BB336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0FBAD01C025F69005BB336 /* Emby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D2375241BAF3428002BF584 = {
 			isa = PBXGroup;
 			children = (
@@ -137,10 +163,10 @@
 				5D2375891BAF36F1002BF584 /* Emby (iOS) */,
 				5D23759C1BAF37B5002BF584 /* Emby (tvOS) */,
 				5D2375831BAF360B002BF584 /* Common */,
-				5D2375311BAF3461002BF584 /* Emby (tvOS) */,
 				5D2375851BAF3615002BF584 /* EmbyKit (iOS) */,
 				5D2375871BAF3621002BF584 /* EmbyKit (tvOS) */,
 				5D2375301BAF3461002BF584 /* Products */,
+				5D0FBACE1C025EC3005BB336 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,18 +181,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D2375311BAF3461002BF584 /* Emby (tvOS) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Emby (tvOS)";
-			path = Emby;
-			sourceTree = "<group>";
-		};
 		5D2375831BAF360B002BF584 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				5D2375841BAF360B002BF584 /* EmbyKit.h */,
+				5D4954101BEC32DA00AAB209 /* Localizable.strings */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -190,15 +209,12 @@
 		5D2375891BAF36F1002BF584 /* Emby (iOS) */ = {
 			isa = PBXGroup;
 			children = (
-				5D23758A1BAF36F1002BF584 /* AppDelegate.h */,
-				5D23758B1BAF36F1002BF584 /* AppDelegate.m */,
 				5D23758C1BAF36F1002BF584 /* Assets.xcassets */,
 				5D23758D1BAF36F1002BF584 /* LaunchScreen.storyboard */,
 				5D23758F1BAF36F1002BF584 /* Main.storyboard */,
 				5D2375911BAF36F1002BF584 /* Info.plist */,
-				5D2375921BAF36F1002BF584 /* main.m */,
-				5D2375931BAF36F1002BF584 /* ViewController.h */,
-				5D2375941BAF36F1002BF584 /* ViewController.m */,
+				5DD39A7D1BE84C2D00B2D09A /* AppDelegate.swift */,
+				5DD39A7C1BE84C2D00B2D09A /* MainViewController.swift */,
 			);
 			path = "Emby (iOS)";
 			sourceTree = "<group>";
@@ -206,14 +222,22 @@
 		5D23759C1BAF37B5002BF584 /* Emby (tvOS) */ = {
 			isa = PBXGroup;
 			children = (
-				5D23759D1BAF37B5002BF584 /* AppDelegate.h */,
-				5D23759E1BAF37B5002BF584 /* AppDelegate.m */,
 				5D23759F1BAF37B5002BF584 /* Assets.xcassets */,
 				5D2375A01BAF37B5002BF584 /* Main.storyboard */,
 				5D2375A21BAF37B5002BF584 /* Info.plist */,
-				5D2375A31BAF37B5002BF584 /* main.m */,
-				5D2375A41BAF37B5002BF584 /* ViewController.h */,
-				5D2375A51BAF37B5002BF584 /* ViewController.m */,
+				5DD39A781BE84C1900B2D09A /* AppDelegate.swift */,
+				5DD39A791BE84C1900B2D09A /* WelcomeViewController.swift */,
+				5DA7BD6E1C058BEB0073EF7A /* WelcomeViewModel.swift */,
+				5D49541D1BEC661600AAB209 /* ConnectViewController.swift */,
+				5DA7BD701C058FEA0073EF7A /* ConnectViewModel.swift */,
+				5D49541F1BEC666800AAB209 /* ServerConnectionViewController.swift */,
+				5DA7BD721C05900F0073EF7A /* ServerConnectionViewModel.swift */,
+				5D4954211BEC66A000AAB209 /* ServerSelectionViewController.swift */,
+				5DA7BD741C0590310073EF7A /* ServerSelectionViewModel.swift */,
+				5D0047081C044B5500B68F36 /* RootViewController.swift */,
+				5DA7BD761C06B9EB0073EF7A /* APIRouter.swift */,
+				5D49541B1BEC39EC00AAB209 /* Button.swift */,
+				5D00470A1C044DC000B68F36 /* DismissSegue.swift */,
 			);
 			path = "Emby (tvOS)";
 			sourceTree = "<group>";
@@ -248,6 +272,7 @@
 				5D23752B1BAF3461002BF584 /* Sources */,
 				5D23752C1BAF3461002BF584 /* Frameworks */,
 				5D23752D1BAF3461002BF584 /* Resources */,
+				5D0FBACF1C025EE1005BB336 /* ShellScript */,
 				5D2375821BAF34EA002BF584 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -268,6 +293,7 @@
 				5D2375441BAF3484002BF584 /* Sources */,
 				5D2375451BAF3484002BF584 /* Frameworks */,
 				5D2375461BAF3484002BF584 /* Resources */,
+				5D0FBAD21C026FA6005BB336 /* ShellScript */,
 				5D2375701BAF34D4002BF584 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -383,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4954111BEC32DA00AAB209 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,12 +417,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4954121BEC32DA00AAB209 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5D0FBACF1C025EE1005BB336 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/CocoaAsyncSocket.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/EmbyApiClient.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RxBlocking.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		5D0FBAD21C026FA6005BB336 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EmbyApiClient.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		5D2375AE1BAF3A1F002BF584 /* Check Config.h */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,9 +494,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2375AB1BAF37B5002BF584 /* ViewController.m in Sources */,
-				5D2375AA1BAF37B5002BF584 /* main.m in Sources */,
-				5D2375A61BAF37B5002BF584 /* AppDelegate.m in Sources */,
+				5DD39A7A1BE84C1900B2D09A /* AppDelegate.swift in Sources */,
+				5DA7BD6F1C058BEB0073EF7A /* WelcomeViewModel.swift in Sources */,
+				5D4954201BEC666800AAB209 /* ServerConnectionViewController.swift in Sources */,
+				5D00470B1C044DC000B68F36 /* DismissSegue.swift in Sources */,
+				5D49541C1BEC39EC00AAB209 /* Button.swift in Sources */,
+				5D0047091C044B5500B68F36 /* RootViewController.swift in Sources */,
+				5DD39A7B1BE84C1900B2D09A /* WelcomeViewController.swift in Sources */,
+				5DA7BD711C058FEA0073EF7A /* ConnectViewModel.swift in Sources */,
+				5DA7BD771C06B9EB0073EF7A /* APIRouter.swift in Sources */,
+				5D4954221BEC66A000AAB209 /* ServerSelectionViewController.swift in Sources */,
+				5D49541E1BEC661600AAB209 /* ConnectViewController.swift in Sources */,
+				5DA7BD751C0590310073EF7A /* ServerSelectionViewModel.swift in Sources */,
+				5DA7BD731C05900F0073EF7A /* ServerConnectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,9 +514,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D23759B1BAF36F1002BF584 /* ViewController.m in Sources */,
-				5D23759A1BAF36F1002BF584 /* main.m in Sources */,
-				5D2375951BAF36F1002BF584 /* AppDelegate.m in Sources */,
+				5DD39A7F1BE84C2D00B2D09A /* AppDelegate.swift in Sources */,
+				5DD39A7E1BE84C2D00B2D09A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,8 +609,13 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -560,6 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emby.apple.tvos;
 				PRODUCT_NAME = Emby;
 				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -586,8 +664,13 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -629,6 +712,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -653,6 +737,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emby.apple.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -678,6 +763,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
