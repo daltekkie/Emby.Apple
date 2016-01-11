@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "3.1.3"
+github "robbiehanson/CocoaAsyncSocket" "6e018ddf7c456106f898efae66ea5e5c94737a96"
+github "ReactiveX/RxSwift" "2.0.0-beta.3"
+github "MediaBrowser/Emby.ApiClient.Swift" "25d679f973630f0cdbaec064f28863d0dab193c1"
