@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D23752E1BAF3461002BF584"
-               BuildableName = "Emby (tvOS).app"
+               BuildableName = "Emby.app"
                BlueprintName = "Emby (tvOS)"
                ReferencedContainer = "container:Emby.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D23752E1BAF3461002BF584"
-            BuildableName = "Emby (tvOS).app"
+            BuildableName = "Emby.app"
             BlueprintName = "Emby (tvOS)"
             ReferencedContainer = "container:Emby.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D23752E1BAF3461002BF584"
-            BuildableName = "Emby (tvOS).app"
+            BuildableName = "Emby.app"
             BlueprintName = "Emby (tvOS)"
             ReferencedContainer = "container:Emby.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D23752E1BAF3461002BF584"
-            BuildableName = "Emby (tvOS).app"
+            BuildableName = "Emby.app"
             BlueprintName = "Emby (tvOS)"
             ReferencedContainer = "container:Emby.xcodeproj">
          </BuildableReference>

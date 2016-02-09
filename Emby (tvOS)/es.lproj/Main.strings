@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "WELCOME_INTRO_TITLE_TEXT"; ObjectID = "2vN-fB-N34"; */
+"2vN-fB-N34.text" = "WELCOME_INTRO_TITLE_TEXT";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "iZD-YT-2Tb"; */
+"iZD-YT-2Tb.normalTitle" = "Next";

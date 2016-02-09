@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Emby
+
+  Created by Aaron Alexander on 11/5/15.
+
+*/
+
+"WELCOME_INTRO_TITLE_TEXT" = "Welcome to Emby";
+"WELCOME_INTRO_SUB_TEXT" = "With Emby you can easily stream videos, music and photos to smart phones, tablets and other devices from your Emby Server.";
+
